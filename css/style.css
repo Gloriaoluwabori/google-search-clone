@@ -7,7 +7,7 @@ nav{
     justify-content: space-around;
     width: 20%;
     margin-left: auto;
-    padding: 2em;
+    padding: 1em;
 }
  a{
       color: black;
@@ -17,7 +17,7 @@ a:hover{
     text-decoration: underline;
 }
 nav img{
-    height: 20px;
+    height: 10px;
 }
 main {
     width:50%;
@@ -47,7 +47,7 @@ footer{
     padding: 1em;
     display: flex;
     justify-content: space-between;
-    margin-right: 1em;
+    margin-right: .8em;
     border:1px solid gray;
 }
 .left a{
@@ -55,4 +55,30 @@ footer{
 }
 .right a{
     margin-right: 1em;
+}
+
+@media screen and (max-width: 768px) {
+
+    nav{
+        display:flex;
+        justify-content: space-around;
+        width: 15%;
+        margin-left: auto;
+        padding: 1em;
+    }
+
+    nav img{
+        height: 10px;
+    }
+
+
+    .btns_container{
+        margin-top: 1em;
+    }
+    .btns_container button{
+        padding: 1em;
+        border:none ;
+    }
+
+
 }
